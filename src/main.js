@@ -16,7 +16,6 @@ async function copyTemplateFiles(options) {
     });
 }
 
-
 async function initGit(options) {
     const result = await execa('git', ['init'], {
         cwd: options.targetDirectory,
@@ -33,7 +32,8 @@ export async function createProject(options) {
     };
 
     options.templateDirectory = path.resolve(
-        '../templates',
+        __filename,
+        '../../templates',
         options.template.toLowerCase()
     );
 
