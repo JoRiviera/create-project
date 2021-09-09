@@ -1,0 +1,42 @@
+{
+	"name": "rest-api-ts-template-sqlite3",
+	"version": "1.0.0",
+	"description": "template for building TS REST API backend service with SQLITE3 database",
+	"main": "./dist/app.js",
+	"scripts": {
+		"start": "tsc && node --unhandled-rejections=strict ./dist/app.js",
+		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+		"format": "prettier --write --plugin-search-dir=. .",
+		"debug": "SET DEBUG=* && npm run start",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"engines": {
+		"node": ">= 14.17.0"
+	},
+	"dependencies": {
+		"better-sqlite3": "^7.4.1",
+		"cors": "^2.8.5",
+		"debug": "^4.3.1",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"express-validator": "^6.11.1",
+		"express-winston": "^4.1.0",
+		"winston": "^3.3.3"
+	},
+	"devDependencies": {
+		"@types/better-sqlite3": "^5.4.2",
+		"@types/cors": "^2.8.10",
+		"@types/debug": "^4.1.5",
+		"@types/express": "^4.17.12",
+		"@types/jsonwebtoken": "^8.5.1",
+		"@types/node": "^15.12.5",
+		"@typescript-eslint/eslint-plugin": "^4.28.1",
+		"@typescript-eslint/parser": "^4.28.1",
+		"eslint": "^7.29.0",
+		"eslint-config-prettier": "^8.3.0",
+		"prettier": "^2.3.2",
+		"source-map-support": "^0.5.19",
+		"tslib": "^2.3.0",
+		"typescript": "^4.3.2"
+	}
+}
