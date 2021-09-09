@@ -25,7 +25,7 @@ function parseArgumentsIntoOptions(rawArgs) {
 }
 
 async function promptForMissingOptions(options) {
-    const defaultTemplate = 'JavaScript';
+    const defaultTemplate = 'cli';
     if (options.skipPrompts) {
         return {
             ...options,
@@ -39,7 +39,7 @@ async function promptForMissingOptions(options) {
             type: 'list',
             name: 'template',
             message: 'Please choose which project template to use',
-            choices: ['JavaScript', 'TypeScript'],
+            choices: ['restapi-sqlite', 'cli'],
             default: defaultTemplate,
         });
     }
