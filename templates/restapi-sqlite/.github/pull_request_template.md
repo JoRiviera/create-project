@@ -1,19 +1,19 @@
-## 🌮 Objectif
+# Goals
 
-_Un petit résumé de l'objectif de la PR en 1 ligne_
+What is this PR for?
 
-## 🔍 Implémentation
+# Implementation
 
-- _Une liste des modifications_
+How did you do it?
 
-## 🏕 Amélioration continue
+# Improvements 
 
-- _(optionnel) Une liste d'autres modifications pas en lien direct avec la PR_
+Other stuff that wasn't directly related to the PR that you modified or improved
 
-## ⚠️ Informations supplémentaires
+# ⚠️ More information
 
-_(optionnel) Documentation, commandes à lancer, variables d'environment, etc_
+Any other relevant information about the PR (commands, env variables, setups, etc...)
 
-## 🖼️ Images
+# 🖼️ Screenshots
 
-_(optionnel) Une ou plusieurs captures d'écran_
+Show off your work by any visual mean 
